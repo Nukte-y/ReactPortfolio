@@ -1,26 +1,36 @@
 import React from 'react';
+import Card from './Card';
+import projects from '../projects.json/';
 
 function Project() {
   return (
-    <div>
-      <h1>Blog Page</h1>
+    <>
+      <h1 style={{backgroundColor:'orange'}}>Projects Page</h1>
       <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
+      Here are examples showcasing my projects,
+      developed using HTML, Bootstrap, JavaScript, and integrating APIs.
       </p>
-    </div>
+      <section className="work text-center" id="work">
+        <div style={{backgroundColor: "white", marginTop:"5px" }} className="container-fluid content">
+          <h2 className="sectionHeading">Projects</h2>
+          <div className="line"></div>  {/* line just for decoration */}
+          <div className="row">
+            {projects.map(project => (
+              <Card
+                key={project.id} 
+                name={project.name}
+                image={project.image}
+                description={project.description}
+                github={project.github}
+                deployed={project.deployed}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
 
 export default Project;
+
