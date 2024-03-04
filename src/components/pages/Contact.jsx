@@ -4,7 +4,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 function Contact(props) {
   return (
     <div>
-      <h1>Contact Page</h1>
+      <h1 style={{marginTop:"70px"}}>Contact Page</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
         molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet

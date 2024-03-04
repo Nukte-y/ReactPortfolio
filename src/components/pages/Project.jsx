@@ -5,7 +5,7 @@ import projects from '../projects.json/';
 function Project() {
   return (
     <>
-      <h1 style={{backgroundColor:'orange'}}>Projects Page</h1>
+      <h1 style={{backgroundColor:'orange', marginTop:"70px"}}>Projects Page</h1>
       <p>
       Here are examples showcasing my projects,
       developed using HTML, Bootstrap, JavaScript, and integrating APIs.

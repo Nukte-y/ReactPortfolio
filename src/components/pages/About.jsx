@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
     <>
-      <h1>About Page</h1>
+      <h1 style={{marginTop:"70px"}}>About Page</h1>
       <section id="about" className="container">
         <div className="row">
           <div className="col-md-6">

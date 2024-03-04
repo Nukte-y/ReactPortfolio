@@ -45,6 +45,11 @@ p {
     font-weight: 600;
     letter-spacing: 0.4px;
 }
+.customNav .nav-link.active {
+    color: black !important;
+  }
+  
+
  .nav-item a::before {
     content: '';
     position: absolute;
