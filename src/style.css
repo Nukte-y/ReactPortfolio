@@ -11,6 +11,14 @@ background-color:#f5f5f5;
 h1{
     padding: 30px;
     font-size: 20px;
+    background-color: rgba(168, 190, 217, 0.3);
+    margin-top: 70px;
+    border-bottom: solid 4px orange;
+}
+
+#hero h1 {
+    background-color: none;
+    border: none;
 }
 h2, h3 , h4, h5, h6 {
     color: #1e1e1e;
@@ -25,7 +33,7 @@ p {
     margin-bottom: 1rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 260;
-    font-size: 16px; 
+    font-size: 16px;
 }
 
 /* Navigation bar */
@@ -34,6 +42,7 @@ p {
     background: url("./components/pages/assets/images/transparency.png");
     background-color: transparent !important;
     background-size: cover;
+    justify-content: center;
     z-index: 100;
 }
  .nav-item {

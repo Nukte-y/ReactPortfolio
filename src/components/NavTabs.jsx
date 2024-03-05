@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 function NavTabs() {
   return (
-    <ul className="nav nav-tabs fixed-top customNav">
+    <ul style={{borderBottom:"none" , paddingBottom:"10px"}} className="nav nav-tabs fixed-top customNav">
       <li className="nav-item">
         <NavLink
           to="/"
@@ -44,16 +44,6 @@ function NavTabs() {
           }
         >
           Contact
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
-          to="contact/learn"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Learn
         </NavLink>
       </li>
     </ul>
