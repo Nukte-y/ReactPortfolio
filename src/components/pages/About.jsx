@@ -22,7 +22,7 @@ function About() {
           </div>
           <div className="col-md-6">
             <div className="pt-4 pt-md-0">
-              <h5 className="title-left border-bottom border-2 pb-2" style={{ borderColor: "#0078ff" }}>
+              <h5 className="title-left border-bottom border-3 pb-2">
                 About me
               </h5>
               <p className="lead">

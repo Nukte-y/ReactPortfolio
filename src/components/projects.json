@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Bootstrap Portfolio",
-    "description": "A website that exhibits my projects with sections for details about them, how to get in touch with me,skills I have, and samples of some of my projects." ,
+    "description": "A website that exhibits my projects with sections for details about them, how to get in touch,skills, and samples of some of my projects." ,
     "image": "/src/components/pages/assets/images/backg.jpg",
     "github": "https://github.com/Nukte-y/Bootstrap-Portfolio",
     "deployed": "https://nukte-y.github.io/Bootstrap-Portfolio/"
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Meteorology",
     "description": "A web application that displays weather forecast data for the next five days, along with a feature to view search history." ,
-    "image": "/src/components/pages/assets/images/weather.png",
+    "image": "/src/components/pages/assets/images/weather1.png",
     "github": "https://github.com/Nukte-y/Meteorology",
     "deployed": "https://nukte-y.github.io/Meteorology/"
   },

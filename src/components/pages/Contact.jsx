@@ -5,7 +5,7 @@ import contactData from '../contact.json'; // Import the JSON data
 function Contact(props) {
   return (
     <>
-      <section id="contact" className="contact bg-image" style={{backgroundImage: "url(./images/backg.jpg)"}}>
+      <section id="contact" className="contact bg-image" >
         <div className="container">
           <div className="boxstyle">
             <div className="text-center mt-5">
