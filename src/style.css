@@ -5,7 +5,7 @@ scroll-behavior: smooth;
 }
 
 body{
-background-image: url("./components/pages/assets/images/contactUs1.jpg");
+background-image: url("../public/images/contactUs1.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -40,7 +40,7 @@ p {
 /* Navigation bar */
 
  .customNav {
-    background: url("./components/pages/assets/images/transparency.png");
+    background: url("../public/images/transparency.png");
     background-color: transparent !important;
     background-size: cover;
     justify-content: center;
@@ -86,7 +86,7 @@ p {
 
   }
   .avatar{
-    background:url(./components/pages/assets/images/Capture.PNG);
+    background:url(../public/images/Capture.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(130vh - 100px);
