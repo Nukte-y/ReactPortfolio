@@ -9,7 +9,7 @@ function About() {
         <div className="row">
           <div className="col-md-6">
             {/* <!--profile pic container--> */}
-            <img src="src/components/pages/assets/profile.PNG" className="image" alt="Profile" />
+            <img src="/images/profile.PNG" className="image" alt="Profile" />
             <div className="mt-3">
             <h5>Skills</h5>
             <Skill skillName="HTML" percentage={65} />
