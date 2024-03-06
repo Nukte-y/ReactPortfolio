@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Import HashRouter
 import NavTabs from './components/NavTabs';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
@@ -23,4 +23,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
