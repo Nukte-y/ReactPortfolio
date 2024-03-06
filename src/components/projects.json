@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Bootstrap Portfolio",
     "description": "A website that exhibits my projects with sections for details about them, how to get in touch,skills, and samples of some of my projects." ,
-    "image": "/public/images/backg.jpg",
+    "image": "/images/backg.jpg",
     "github": "https://github.com/Nukte-y/Bootstrap-Portfolio",
     "deployed": "https://nukte-y.github.io/Bootstrap-Portfolio/"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Meteorology",
     "description": "A web application that displays weather forecast data for the next five days, along with a feature to view search history." ,
-    "image": "/public/images/weather1.png",
+    "image": "/images/weather1.png",
     "github": "https://github.com/Nukte-y/Meteorology",
     "deployed": "https://nukte-y.github.io/Meteorology/"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Workday Agenda",
     "description": "A dynamic agenda, featuring editable hourly slots. Easily save your thoughts, plans, or important notes for future reference." ,
-    "image": "/public/images/agenda.png",
+    "image": "/images/agenda.png",
     "github": "https://github.com/Nukte-y/WorkdayAgenda",
     "deployed": "https://nukte-y.github.io/WorkdayAgenda/"
   }
