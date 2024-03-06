@@ -34,7 +34,7 @@ function About() {
               <p className="lead">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, eligendi voluptatum ipsam placeat quibusdam error iusto libero, cupiditate rerum a accusantium earum deleniti asperiores mollitia fugiat laudantium excepturi velit saepe.
               </p>
-              <a href="/src/components/pages/assets/Sample Resume - Web Development.pdf" 
+              <a href="/images/Sample Resume - Web Development.pdf" 
               download className="btn btn-primary">Download CV</a>
             </div>
           </div>
